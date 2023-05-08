@@ -16,7 +16,7 @@ class ManejaAl:
         if self.__cantidad == self.__dimension:
             self.__dimension += self.__incremento
             self.__Alumnos.resize(self.__dimension)
-        archivo= open("Alumnos_EjInt.csv")
+        archivo= open("alumnos.csv")
         lector= csv.reader(archivo, delimiter=';')
         i = 0
         for elemento in lector:
