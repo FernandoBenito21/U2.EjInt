@@ -6,7 +6,7 @@ class ManejaMateria:
         self.__Materias= []
 
     def carga_materias(self):
-        archivo = open("Materias_EjInt.csv")
+        archivo = open("materiasAprobadas.csv")
         lector= csv.reader(archivo, delimiter=';')
         i = 0
         for elemento in lector:
